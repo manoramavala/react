@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.light {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.dark {
+  background-color: #000000;
+  color: #f7f7f7;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
